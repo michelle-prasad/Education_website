@@ -1,0 +1,47 @@
+.body-container{
+    background-color: white;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+.row .card{
+    width: 230px;
+    background-color: #365f59;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(206, 90, 67);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.course-cards .card{
+    margin: 10px 20px 20px 20px;
+    background-color: #043e4c;
+    color: white;
+
+}
+
+.course-cards .card .card-body  button{
+    border-width: 2px;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    background-color: #104452;
+}
+
+
+.course-cards button :hover{
+    border-width: 3px;
+    transition: 1s ease;
+}

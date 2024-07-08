@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="fade1" style="width: 150px; height: 150px; display: none; background-color: rgb(167, 167, 207);" > 
+    </div>
+    <div id="fade2" style="width: 150px; height: 150px; display: none; background-color: rgb(167, 194, 207);" > 
+    </div>
+    <div id="fade3" style="width: 150px; height: 150px; display: none; background-color: rgb(240, 185, 208);" > 
+    </div>
+
+
+    <div id="fade4" style="width: 150px; height: 150px; display: none; background-color: rgb(167, 167, 207);" > 
+    </div>
+    <div id="fade5" style="width: 150px; height: 150px; display: none; background-color: rgb(167, 194, 207);" > 
+    </div>
+    <div id="fade6" style="width: 150px; height: 150px; display: none; background-color: rgb(240, 185, 208);" > 
+    </div>
+
+    <button id="btn1">in </button>
+    <button id="btn2"> out</button>
+
+</body>
+
+<script>
+
+    $(document).ready( function(){
+    $("#btn1").click(function(){
+        $("#fade1").fadeIn(800);
+        $("#fade2").fadeIn(1400);
+        $("#fade3").fadeIn(2000);
+    });
+}
+)
+
+$(document).ready( function(){
+    $("#btn2").click(function(){
+        $("#fade4").fadeOut(800);
+        $("#fade5").fadeOut(1400);
+        $("#fade6").fadeOut(2000);
+    });
+}
+)
+
+</script>
+
+</html>
